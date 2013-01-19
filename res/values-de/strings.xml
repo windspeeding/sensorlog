@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="motion">Bewegung</string>
+    <string name="environment">Umgebung</string>
+    <string name="accelerometer">Beschleunigung</string>
+    <string name="gyroscope">Gyroskop</string>
+    <string name="gravity">Schwerebeschleunigung</string>
+    <string name="linear_acceleration">Lineare Beschleunigung</string>
+    <string name="rotation_vector">Rotationsvektor</string>
+    <string name="proximity">Näherung</string>
+    <string name="orientation">Ausrichtung</string>
+    <string name="magnetic_field">Magnetfeld</string>
+    <string name="ambient_temperature">Temperatur</string>
+    <string name="light">Beleuchtungsstärke</string>
+    <string name="pressure">Druck</string>
+    <string name="relative_humidity">Relative Luftfeuchtigkeit</string>
+    <string name="data_na">nicht verfügbar</string>
+
+</resources>

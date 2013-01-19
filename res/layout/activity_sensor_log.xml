@@ -1,0 +1,222 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:id="@+id/outer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SensorLog" >
+
+    <ScrollView
+        android1:id="@+id/scrollView1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_above="@+id/logSwitch"
+        android1:layout_alignParentLeft="true"
+        android1:layout_alignParentRight="true"
+        android1:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:orientation="vertical" >
+
+            <TextView
+                android1:id="@+id/tvMotion"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/motion"
+                android1:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android1:id="@+id/tvAccel"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/accelerometer"
+                android1:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android1:id="@+id/accel_data"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/data_na"
+                android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android1:id="@+id/tvGravity"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/gravity"
+                android1:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android1:id="@+id/gravity_data"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/data_na"
+                android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android1:id="@+id/tvGyroscope"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/gyroscope"
+                android1:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android1:id="@+id/gyro_data"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/data_na"
+                android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android1:id="@+id/tvLinearAccel"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/linear_acceleration"
+                android1:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android1:id="@+id/linaccel_data"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/data_na"
+                android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android1:id="@+id/tvRotationVector"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/rotation_vector"
+                android1:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android1:id="@+id/rotvect_data"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/data_na"
+                android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android1:id="@+id/tvPosition"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/position"
+                android1:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android1:id="@+id/tvMagneticField"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/magnetic_field"
+                android1:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android1:id="@+id/magfield_data"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/data_na"
+                android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android1:id="@+id/tvOrientation"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/orientation"
+                android1:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android1:id="@+id/ori_data"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/data_na"
+                android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android1:id="@+id/tvProximity"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/proximity"
+                android1:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android1:id="@+id/proxy_data"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/data_na"
+                android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android1:id="@+id/tvEnvironment"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/environment"
+                android1:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android1:id="@+id/tvAmbientTemperature"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/ambient_temperature"
+                android1:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android1:id="@+id/ambitemp_data"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/data_na"
+                android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android1:id="@+id/tvLight"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/light"
+                android1:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android1:id="@+id/light_data"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/data_na"
+                android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android1:id="@+id/tvPressure"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/pressure"
+                android1:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android1:id="@+id/press_data"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/data_na"
+                android1:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android1:id="@+id/tvRelativeHumidity"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/relative_humidity"
+                android1:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android1:id="@+id/humi_data"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:text="@string/data_na" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Switch
+        android1:id="@+id/logSwitch"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentBottom="true"
+        android1:layout_alignParentRight="true"
+        android1:text="@string/log" />
+
+</RelativeLayout>

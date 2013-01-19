@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sensor Log</string>
+    <string name="menu_settings">Settings</string>
+    <string name="motion">Motion</string>
+    <string name="position">Position</string>
+    <string name="environment">Environment</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="gyroscope">Gyroscope</string>
+    <string name="gravity">Gravity</string>
+    <string name="linear_acceleration">Linear acceleration</string>
+    <string name="rotation_vector">Rotation vector</string>
+    <string name="proximity">Proximity</string>
+    <string name="orientation">Orientation</string>
+    <string name="magnetic_field">Magnetic field</string>
+    <string name="ambient_temperature">Ambient Temperature</string>
+    <string name="light">Illuminance</string>
+    <string name="pressure">Pressure</string>
+    <string name="relative_humidity">Relative humidity</string>
+    <string name="data_na">not available</string>
+    <string name="humi_format">φ = % 3.0f %%</string>
+    <string name="light_format">E&lt;sub&gt;v&lt;/sub&gt; = % 4.0f lx</string>
+    <string name="ambitemp_format">ϑ = % 5.1f K</string>
+    <string name="press_format">p = % 7.2f hPa</string>
+    <string name="magfield_format" formatted="false">B&lt;sub&gt;x&lt;/sub&gt; = % 5.1f µT&lt;br /&gt;B&lt;sub&gt;y&lt;/sub&gt; = % 5.1f µT&lt;br /&gt;B&lt;sub&gt;z&lt;/sub&gt; = % 5.1f µT&lt;br /&gt;|B| = % 5.1f µT</string>
+    <string name="ori_format" formatted="false">α = % 5.1f °&lt;br /&gt;β = % 5.1f °&lt;br /&gt;γ = % 5.1f °</string>
+    <string name="proxy_format">d = % 2.0f mm</string>
+    <string name="accel_format" formatted="false">a&lt;sub&gt;x&lt;/sub&gt; = % 5.2f m·s&lt;sup&gt;-2&lt;/sup&gt;&lt;br /&gt;a&lt;sub&gt;y&lt;/sub&gt; = % 5.2f m·s&lt;sup&gt;-2&lt;/sup&gt;&lt;br /&gt;a&lt;sub&gt;z&lt;/sub&gt; = % 5.2f m·s&lt;sup&gt;-2&lt;/sup&gt;&lt;br /&gt;|a| = % 5.2f m·s&lt;sup&gt;-2&lt;/sup&gt;</string>
+    <string name="linaccel_format" formatted="false">a&lt;sub&gt;x&lt;/sub&gt; = % 5.2f m·s&lt;sup&gt;-2&lt;/sup&gt;&lt;br /&gt;a&lt;sub&gt;y&lt;/sub&gt; = % 5.2f m·s&lt;sup&gt;-2&lt;/sup&gt;&lt;br /&gt;a&lt;sub&gt;z&lt;/sub&gt; = % 5.2f m·s&lt;sup&gt;-2&lt;/sup&gt;&lt;br /&gt;|a| = % 5.2f m·s&lt;sup&gt;-2&lt;/sup&gt;</string>
+    <string name="gravity_format" formatted="false">g&lt;sub&gt;x&lt;/sub&gt; = % 5.2f m·s&lt;sup&gt;-2&lt;/sup&gt;&lt;br /&gt;g&lt;sub&gt;y&lt;/sub&gt; = % 5.2f m·s&lt;sup&gt;-2&lt;/sup&gt;&lt;br /&gt;g&lt;sub&gt;z&lt;/sub&gt; = % 5.2f m·s&lt;sup&gt;-2&lt;/sup&gt;&lt;br /&gt;|g| = % 5.2f m·s&lt;sup&gt;-2&lt;/sup&gt;</string>
+	<string name="gyro_format" formatted="false">ω&lt;sub&gt;x&lt;/sub&gt; = % 5.2f rad·s&lt;sup&gt;-1&lt;/sup&gt;&lt;br /&gt;ω&lt;sub&gt;y&lt;/sub&gt; = % 5.2f rad·s&lt;sup&gt;-1&lt;/sup&gt;&lt;br /&gt;ω&lt;sub&gt;z&lt;/sub&gt; = % 5.2f rad·s&lt;sup&gt;-1&lt;/sup&gt;</string>
+	<string name="rotvect_format" formatted="false">φ&lt;sub&gt;x&lt;/sub&gt; = % 5.2f&lt;br /&gt;φ&lt;sub&gt;y&lt;/sub&gt; = % 5.2f&lt;br /&gt;φ&lt;sub&gt;z&lt;/sub&gt; = % 5.2f&lt;br /&gt;Φ = % 5.2f</string>
+	<string name="log">Log</string>
+
+</resources>
