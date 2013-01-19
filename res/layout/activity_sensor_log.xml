@@ -4,6 +4,8 @@
     android:id="@+id/outer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android1:layout_marginLeft="16dp"
+    android1:layout_marginRight="16dp"
     tools:context=".SensorLog" >
 
     <ScrollView
@@ -26,6 +28,13 @@
                 android1:layout_height="wrap_content"
                 android1:text="@string/motion"
                 android1:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <View
+                android1:id="@+id/view1"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:layout_margin="4dp"
+                android1:background="?android:attr/dividerVertical" />
 
             <TextView
                 android1:id="@+id/tvAccel"
@@ -101,8 +110,16 @@
                 android1:id="@+id/tvPosition"
                 android1:layout_width="wrap_content"
                 android1:layout_height="wrap_content"
+                android1:layout_marginTop="16dp"
                 android1:text="@string/position"
                 android1:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <View
+                android1:id="@+id/view2"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:layout_margin="4dp"
+                android1:background="?android:attr/dividerVertical" />
 
             <TextView
                 android1:id="@+id/tvMagneticField"
@@ -150,8 +167,16 @@
                 android1:id="@+id/tvEnvironment"
                 android1:layout_width="wrap_content"
                 android1:layout_height="wrap_content"
+                android1:layout_marginTop="16dp"
                 android1:text="@string/environment"
                 android1:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <View
+                android1:id="@+id/view3"
+                android1:layout_width="wrap_content"
+                android1:layout_height="wrap_content"
+                android1:layout_margin="4dp"
+                android1:background="?android:attr/dividerVertical" />
 
             <TextView
                 android1:id="@+id/tvAmbientTemperature"
